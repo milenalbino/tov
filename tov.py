@@ -7,9 +7,9 @@ import math
 
 # EoS/input file
 # Need a header with 'pressure' and 'energy'
-# for pressure and density energy rows, respectively.
-# The column separator should be one space
-# (you can change it in the "sep" option")
+# for pressure and energy density columns, respectively.
+# The column separator should be a space
+# (you can change it in the "sep" option)
 df = pd.read_csv('example_eos.dat', sep=' ')
 
 # print header in the output file
