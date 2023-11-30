@@ -13,7 +13,7 @@ import math
 df = pd.read_csv('example_eos.dat', sep=' ')
 
 # print header in the output file
-with open('output_tov.dat', 'a') as f:
+with open('output_tov.dat', 'w') as f:
   sys.stdout = f # change standard output to file
   print('P0 R M Lambda k2 y C')
 
